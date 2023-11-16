@@ -1,5 +1,7 @@
 ﻿using LeetCodeCP;
 
-int[] prices = new int[] { 7, 1, 5, 3, 6, 4 };
+int[] nums1 = { 1, 2, 3, 0, 0, 0 };
+int[] nums2 = { 2, 5, 6 };
 
-Console.WriteLine(BestTimeToBuyAndSellStock.MaxProfit(prices));
+MergeSortedArray.Merge(nums1, 3, nums2, 3);
+

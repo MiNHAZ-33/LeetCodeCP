@@ -1,4 +1,5 @@
 ﻿using LeetCodeCP;
 
-string rom = "III";
-Console.WriteLine(RomanToInteger.RomanToInt(rom));
+int[] prices = new int[] { 7, 1, 5, 3, 6, 4 };
+
+Console.WriteLine(BestTimeToBuyAndSellStock.MaxProfit(prices));

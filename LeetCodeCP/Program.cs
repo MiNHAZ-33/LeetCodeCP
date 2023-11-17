@@ -1,7 +1,6 @@
 ﻿using LeetCodeCP;
 
-int[] nums1 = { 1, 2, 3, 0, 0, 0 };
-int[] nums2 = { 2, 5, 6 };
+string[] strings = { "flower", "floor" };
 
-MergeSortedArray.Merge(nums1, 3, nums2, 3);
+LongestCommonPrefix.LogestPrefix(strings);
 

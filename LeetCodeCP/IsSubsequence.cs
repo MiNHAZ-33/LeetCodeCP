@@ -5,15 +5,16 @@ namespace LeetCodeCP
     {
         public static bool IsSubsequenceSolution(string s, string t)
         {
-            int j = 0;
-            for (int i = 0; i < t.Length && j < s.Length; i++)
-            {
-                if (s[j] == t[i])
+            int sIndex = 0;
+            int tIndex = 0;
+            while(sIndex < s.Length && tIndex<t.Length) {
+                if (s[sIndex] == t[tIndex])
                 {
-                    j++;
+                    sIndex++;
                 }
+                tIndex++;
             }
-            return j == s.Length;
+            return sIndex == s.Length;
         }
     }
 }
